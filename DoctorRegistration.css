@@ -1,0 +1,34 @@
+.doctor-registration {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .doctor-registration h2 {
+    text-align: center;
+  }
+  
+  .doctor-registration form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .doctor-registration label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .doctor-registration input, .doctor-registration textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .doctor-registration button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

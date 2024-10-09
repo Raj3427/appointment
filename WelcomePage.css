@@ -1,0 +1,30 @@
+.welcome-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-page p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .welcome-page .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .welcome-page button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
